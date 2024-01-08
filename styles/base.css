@@ -1,0 +1,62 @@
+body {
+    margin: 0 auto;
+    font-family: 'Roboto Slab', serif;
+    max-width: 640px;
+    text-align: center;
+}
+
+header, .card h2, footer {
+    background-color: #011936;
+    color: #fff;
+}
+
+header {
+    align-items: center;
+    display: flex;
+    justify-content: space-around;
+    font-size: 30px;
+    padding: 1rem;
+} 
+
+#myimg {
+    width: 20%;
+}
+
+nav {
+    background-color: #465362;
+}
+
+nav a {
+    text-decoration: none;
+    color: #fff;
+    display: block;
+    text-align: center;
+    padding: 1rem;
+}
+
+nav a:hover {
+    background-color: #6A041D;
+}
+
+nav ul li, section ul li {
+    list-style: none;
+}
+
+main {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-gap: 10px;
+}
+
+main h1 {
+    text-decoration: underline;    
+}
+
+.card {
+    border: 1px solid #000;
+    border-radius: 10px;
+}
+
+.card ul {
+    text-align: left;
+}
