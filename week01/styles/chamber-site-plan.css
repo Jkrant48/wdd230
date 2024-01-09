@@ -1,16 +1,12 @@
-/* if you are using any Google fonts change the font names below to your fonts. 
-Any spaces in your font name should be replaced with a +. 
-Fonts are separated by a & */
 
 :root {
-  /* change the values below to your colors from your palette */
   --primary-color: #D8C99B;
   --secondary-color: #273E47;
   --accent1-color: #BD632F;
   --accent2-color: #463F3A;
   --accent3-color: #FAFAFA;
 
-  /* change the values below to your chosen font(s) */
+
   --heading-font: 'Acme', sans-serif;
   --paragraph-font: 'Montserrat',sans-serif;
 
