@@ -1,10 +1,10 @@
 
 :root {
-  --primary-color: #D8C99B;
+  --primary-color: #FAFAFA;
   --secondary-color: #273E47;
   --accent1-color: #BD632F;
   --accent2-color: #463F3A;
-  --accent3-color: #FAFAFA;
+  --accent3-color: #D8C99B;
 
 
   --heading-font: 'Acme', sans-serif;
@@ -121,4 +121,9 @@ nav a:link, nav a:visited {
 nav a:hover {
   color: var(--nav-hover-link-color);
   background-color: var(--nav-hover-background-color);
+}
+
+#wireframe {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
 }
