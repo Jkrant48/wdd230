@@ -80,3 +80,7 @@ main h1 {
 .card a{
     color: blue;
 }
+
+.lastModified {
+    color: yellow;
+}

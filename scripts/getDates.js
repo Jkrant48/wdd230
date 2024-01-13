@@ -11,7 +11,7 @@ year.innerHTML = currentYear;
 
 function displayLastModifiedDate() {
     let lastModifiedDate = date.toLocaleString();
-    lastModifiedDate.textContent = "Last Modification:" + lastModifiedDate;
+    lastModified.textContent = lastModifiedDate;
 }
 
 document.addEventListener("DOMContentLoaded", displayLastModifiedDate);
