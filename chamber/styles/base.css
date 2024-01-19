@@ -21,6 +21,32 @@ a {
     text-decoration: none;
 }
 
+#myButton {
+    font-size: 2rem;
+    background: none;
+    border: none;
+    color: #FAFAFA;
+    width: 100%;
+    text-align: left;
+    padding: .25rem 2vw;
+}
+
+#myButton::before{
+    content: "=";
+}
+
+#myButton.open::before {
+    content: "x";
+}
+
+ul.menuList {
+    display: none;
+}
+
+ul.menuList.open {
+    display: block;
+}
+
 header, nav {
     background-color: #273E47;
     font-family: 'Acme', sans-serif;
@@ -74,7 +100,7 @@ header {
 }
 
 .logo{
-    width: 8rem;
+    width: 7rem;
 }
 
 .login, .join, footer p {
