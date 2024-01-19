@@ -9,6 +9,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Crimson+Text&family=Pacifico&family=Roboto+Slab&family=Salsa&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles/normalize.css">
     <link rel="stylesheet" href="styles/base.css">
     <link rel="stylesheet" href="styles/larger.css">
     <link rel="icon" href="favicon.ico">
@@ -21,12 +22,14 @@
     <header>
         <img id="myimg" src="images/mypicture.jpg" alt="picture-of-myself">
         <span>Jonathan Nkansah Koranteng</span>
+        <img src="images/dark-theme-svgrepo-com.svg" alt="dark mode" id="darkBtn">
     </header>
     <nav>
-        <ul>
+        <button type="button" title="Text" id="myButton"></button>
+        <ul class="menuLinks">
             <li class="active"><a href="index.html">Home</a></li>
             <li><a href="chamber/index.html">Chamber</a></li>
-            <li><a href="">Site Plan</a></li>
+            <li><a href="week01/chamber-site-plan.html">Site Plan</a></li>
             <li><a href="">Form</a></li>
         </ul>
     </nav>
@@ -36,9 +39,9 @@
             <h2>Learning Activities</h2>
             <ul>
                 <li>Week 01: <a href="week01/holygrail.html">Layout</a> | <a href="week01/media-query.html">Media Query</a> 
-                    | <a href="https://codepen.io/Jonathan-Koranteng/pen/OJqNYPO">JS Pen</a> | <a href="week01/chamber-site-plan.html">Chamber Site Plan</a></li>
+                    | <a href="https://codepen.io/Jonathan-Koranteng/pen/OJqNYPO">JS Pen</a></li>
                 <li>Week 02: <a href="week02/design.html">Design</a> | <a href="https://codepen.io/Jonathan-Koranteng/pen/XWGpLjw">Responsive Menu</a> | 
-                <a href="week02/bom.html">B.O.M app</a> | <a href="chamber/index.html">Chamber website</a></li> 
+                <a href="week02/bom.html">B.O.M app</a></li> 
                 <li>Week 03:</li>
                 <li>Week 04:</li>
                 <li>Week 05:</li>
@@ -54,6 +57,6 @@
         <p class="lastModified">Last Modification: <Span id="lastModified"></Span></p>
     </footer>
     <script src="scripts/getDates.js"></script>
-    <script src="scripts/responsivemenu.js"></script>
+    <script src="scripts/main.js"></script>
 </body>
 </html>

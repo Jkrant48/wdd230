@@ -13,18 +13,16 @@
     <link rel="stylesheet" href="styles/larger.css">
     <meta property="og:title" content="Chamber website - WDD230">
     <meta property="og:type" content="website">
-    <meta property="og:image" content="">
-    <meta property="og:url" content="">
+    <meta property="og:image" content="https://jkrant48.github.io/wdd230/chamber/images/accra.jpg"> 
+    <meta property="og:url" content="https://jkrant48.github.io/wdd230/chamber/index.html">
 </head>
 <body>
     <header>
         <a class="logo-link" href="index.html">
             <img class="logo" src="images/Sankofa-logo.png" alt="logo Image">
         </a>
-        <a id="login" href="#" target="_blank">Member Login</a>
-        <a id="join" href="#" target="_blank">
-            <button type="button">Join the Chamber</button>
-        </a>
+        <a class="login" href="#" target="_blank">Member Login</a>
+        <a class="join" href="#" target="_blank">Join the Chamber</a>
     </header>
     <nav>
         <ul class="menuList">
@@ -35,99 +33,109 @@
         </ul>
     </nav>
     <main>
-        <div id="hero">
-        <section id="hero-msg">
-            <h1>Helping people in Adenta live, work and thrive.</h1>
-            <h3>Sankofa Chamber of Commerce</h3>
-            <p id="about">We are an organisation consisting of members committed to
-                providing business and job opportunities so that people can
-                find work and provide for their families.
-            </p>
-            <a id="learn" href="#">
-                <button type="button">Learn More</button>
-            </a>
-        </section>
-
-        <div id="hero-box">
-            <img src="images/accra.jpg" alt="picture of accra">
-        </div>
-        </div>
+        <div class="hero">
+            <section>
+                <h1>Helping people in Adenta live, work and thrive.</h1>
+                <h3>Sankofa Chamber of Commerce</h3>
+            </section>
+            <section>
+                <p>We are an organisation consisting of members committed to
+                    providing business and job opportunities so that people can
+                    find work and provide for their families.
+                </p>
+                <a href="#">Learn More</a>
+            </section>
+            <img class="hero-img" src="images/accra.jpg" alt="picture of accra">
+            
+        </div><!--end of hero-->
         <hr>
-        <section id="top">
+        <section class="top">
             <img src="images/women-shopping-fruit-market.jpg" alt="woman selling">
-            <h1>We connect to inspire, empower and educate.</h1>
-            <p>At Sankofa, we believe in the transformative power of 
-                networking and collaboration. Through our vibrant community 
-                of businesses, we foster an environment that encourages 
-                innovation and growth. Whether you are a seasoned 
-                entrepreneur or just starting your journey, our chamber 
-                is your gateway to meaningful connections that inspire 
-                creativity, empower your business endeavors, and provide 
-                invaluable educational resources. Join us in building a 
-                thriving network that transcends boundaries and propels 
-                businesses toward success. Together, we connect, inspire, 
-                empower, and educate; forging a future of prosperity 
-                for all. Click the button below to see our annual programs
-                and events.
-            </p>
-            <a href="#">
-                <button>Annual programs and Events</button>
-            </a>
+            <div>
+                <h2>We connect to inspire, empower and educate.</h2>
+                <p>At Sankofa, we believe in the transformative power of 
+                    networking and collaboration. Through our vibrant community 
+                    of businesses, we foster an environment that encourages 
+                    innovation and growth. Join us in building a 
+                    thriving network that transcends boundaries and propels 
+                    businesses toward success. Together, we connect, inspire, 
+                    empower, and educate; forging a future of prosperity 
+                    for all. Click the button below to see our annual programs
+                    and events.
+                </p>
+                <a href="#"> Annual programs and Events</a><!--fix mistakes here-->
+            </div>
         </section>
         <hr>
-        <section id="cards">
-            <h1>Why Join the Chamber?</h1>
-            <div id="card1">
+        <section class="cards">
+            <h2>Why Join the Chamber?</h2>
+            <div class="card1">
                 <img src="images/unity icon.png" alt="Unity icon">
-                <h2>Make Connections</h2>
+                <h3>Make Connections</h3>
                 <p>At Sankofa, we organise networking events, business mixers and 
                     industry specific gatherings where members meet and interact with 
                     other professionals in their field.
                 </p>
             </div>
-            <div id="card2">
+            <div class="card2">
                 <img src="images/opportunity icon.png" alt="opportunity icon">
-                <h2>Secure opportunities</h2>
+                <h3>Secure opportunities</h3>
                 <p>By joining us, you will have many avenues to showcase your products or
                     services to potential customers, partners and employers.
                 </p>
             </div>
-            <div id="card3">
+            <div class="card3">
                 <img src="images/information icon.png" alt="information icon">
-                <h2>Stay informed</h2>
+                <h3>Stay informed</h3>
                 <p>We also organise seminars and workshops whereby our members can learn about 
                     the latest trends in their respective industries.
                 </p>
             </div>
         </section>
         <hr>
-        <div>
-            <h1>Join a Supportive Community of businesses.</h1>
+        <div class="center">
+            <h2>Join a Supportive Community of businesses.</h2>
             <p>There are opportunities for all businesses
                 whether big or small.
             </p>
-            <a href="#">
-                <button type="button">Join today</button>
-            </a>
+            <a href="#">Join today</a>
         </div>
         <hr>
-        <div id="info">
-            <section id="upcoming">
+        <div class="info">
+            <section class="upcoming">
                 <h2>Upcoming Events</h2>
-                <!--list some events-->
+                <div>
+                    <h3>Chalewote festival</h3>
+                    <p>Join us on this street festival happening on the 19th January, 2023.
+                        If you goods do showcase or sell, bring them along!!
+                    </p>
+                </div>
+                <div>
+                    <h3>Graphic Design Competion</h3>
+                    <p>Join Us at 10am on the 22nd January, 2023 and witness 
+                        or participate in our Graphic designers tournament.
+                    </p>
+                </div>
+                <div>
+                    <h3>Farmer's Day Celebration</h3>
+                    <p>The annual farmer's day celebration is happening live at
+                        ashiyie sports arena on the 10th July, 2023 at 9am.
+                    </p>
+                </div>
+                <a href="#">See More</a>
             </section>
-            <section id="communityinfo">
+            <section class="communityinfo">
                 <h2>Community Information</h2>
-                <!--Add community information weather, advert etc-->
+                <div>
+                    <h3>Town: Adenta</h3>
+                </div>
             </section>
         </div>
         <hr>
-        <div>
-            <h1>Key members and partners</h1>
+        <div id="images-box">
+            <h2>Key members and partners</h2>
             <!--add logos of partners and key members-->
-            <a href="#">
-                <button>See More</button>
-            </a>
+            <a href="#">See More</a>
         </div>
     </main>
     <footer>
