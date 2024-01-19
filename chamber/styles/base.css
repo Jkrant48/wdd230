@@ -112,7 +112,7 @@ header {
     margin-right: auto;
 }
 
-.hero section {
+.hero section, .hero div {
     padding: 1rem;
     text-align: left;
 }

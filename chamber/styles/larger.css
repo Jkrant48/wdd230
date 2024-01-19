@@ -21,7 +21,7 @@
         grid-template-columns: 2fr 1fr;
     }
 
-    .hero section {
+    .hero section, .hero div {
         padding: 1.4rem;
     }
 
