@@ -103,7 +103,7 @@ header {
     width: 7rem;
 }
 
-.login, .join, footer p {
+.login, .join{
     padding-left: 20px;
     padding-right: 20px;
 } /*check padding here*/
@@ -137,7 +137,7 @@ header {
     font-size: 2.2rem;
 }
 
-.hero h3, .hero a, .top p, .cards p, .communityinfo{
+.hero h3, .hero a, .top p, .cards p, .communityinfo, footer p , #socials{
     margin: 10px 0 0 0;
 }
 
@@ -228,5 +228,6 @@ header {
 footer {
     background-color: #273E47;
     color: #FAFAFA;
+    padding: 20px;
 }
 

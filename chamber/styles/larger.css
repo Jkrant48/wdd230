@@ -69,9 +69,28 @@
     }
 
     footer {
-        display: flex;
-        align-items: center;
-        justify-content: space-around;
+        display: grid;
+        grid-template-columns: 1fr 2fr 1fr 1fr;
+        padding: 20px;
+    }
+
+    .p-info, .o-info {
+        grid-column: 2/3;
+        grid-row: 1/2;
+    }
+
+    .o-info, .nav-J {
+        margin: 60px 0 0 0;
+    }
+
+    .nav-D, .nav-J {
+        grid-column: 3/4;
+        grid-row: 1/2;
+    }
+
+    #socials {
+        grid-column: 4/5;
+        align-self: center;
     }
 
     .info {
