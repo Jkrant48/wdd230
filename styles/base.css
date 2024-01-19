@@ -112,6 +112,7 @@ main h1 {
     border-radius: 10px;
     overflow: hidden;
     box-shadow: 0px 1px 5px #343333;
+    background-color:#564138;
 }
 
 .card ul {
@@ -119,9 +120,13 @@ main h1 {
     padding: 1rem;
 }
 
+.card ul li {
+    color: #fff;
+}
+
 .card a{
     text-decoration: none;
-    color: rgb(255, 42, 0);
+    color: #fff;
 }
 
 .lastModified {
