@@ -81,15 +81,30 @@ header {
     gap: 10px;
 }
 
-.join, .top a {
-    background-color: #BD632F;
+.join {
+    background-color: #FAFAFA;
     padding: 5px;
     border-radius: 5px;
+    color: #000;
 }
 
-.join:hover, .top a:hover {
-    background-color: #463F3A;
+.join:hover  {
+    background-color: #BD632F;
+    color: #FAFAFA;
 }
+
+.top a {
+    background-color: #D8C99B;
+    padding: 5px;
+    border-radius: 5px;
+    color: #000;
+}
+
+.top a:hover {
+    background-color: #BD632F;
+    color: #FAFAFA;
+}
+
 
 .login {
     color: #FAFAFA;
@@ -154,6 +169,16 @@ header {
     background-color: #463F3A;
     color: #FAFAFA;
     padding: 20px 30px 40px 30px;
+    
+}
+
+#purpose {
+    display: flex;
+    flex-direction: column;
+}
+
+#purpose a {
+    margin-top: 10px;
 }
 
 .top p {
@@ -183,6 +208,27 @@ header {
     text-align: left;
     padding: 30px;
     /*background-image: url(../images/kente-pattern.jpg);*/
+}
+
+.center a {
+    display: block;
+    width: fit-content;
+    margin-top: 20px;
+}
+
+#images-box a{
+    display: block;
+    width: fit-content;
+    margin-top: 20px;
+    margin: 0 auto;
+}
+
+#images-box div {
+    padding: 20px;
+}
+
+#images-box img {
+    width: 10rem;
 }
 
 .center a, #images-box a {
