@@ -33,7 +33,7 @@
         margin: 30px 0 0 0;
     }
 
-    .hero-img {
+    .hero picture {
         grid-column: 1/3;
     }
 
@@ -105,5 +105,28 @@
 
     .communityinfo {
         margin: 0;
+    }
+
+    .tourist-site section, .businesses section {
+        display: flex;
+    }
+
+    .discover{
+        display: grid;
+        grid-template-columns: 1fr 3fr;
+    }
+
+    .tourist-site{
+        grid-column: 2/3;
+        grid-row: 1/2;
+    }
+
+    .businesses {
+        grid-column: 2/3;
+    }
+
+    .side {
+        grid-column: 1/2;
+        grid-row: 1/3;
     }
 }

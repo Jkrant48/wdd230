@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Jonathan Nkansah Koranteng">
+    <meta name="description" content="Chamber website - WDD 230">
+    <title>Sankofa Chamber of Commerce | Home</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Acme&family=Montserrat&family=Salsa&family=Slabo+27px&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles/normalize.css">
+    <link rel="stylesheet" href="styles/base.css">
+    <link rel="stylesheet" href="styles/larger.css">
+    <link rel="icon" href="favicon.ico">
+    <meta property="og:title" content="Chamber website - WDD230">
+    <meta property="og:type" content="website">
+    <meta property="og:image" content="https://jkrant48.github.io/wdd230/chamber/images/accra.jpg"> 
+    <meta property="og:url" content="https://jkrant48.github.io/wdd230/chamber/index.html">
+</head>
+<body>
+    <header>
+        <a class="logo-link" href="index.html">
+            <img class="logo" src="images/Sankofa-logo.png" alt="logo Image">
+        </a>
+        <a class="login" href="#" target="_blank">Member Login</a>
+        <a class="join" href="#" target="_blank">Join the Chamber</a>
+    </header>
+    <nav>
+        <button type="button" title="title" id="myButton"></button>
+        <ul class="menuList">
+            <li><a href="index.html">Home</a></li>
+            <li class="active"><a href="discover.html">Discover</a></li>
+            <li><a href="#">Directory</a></li>
+            <li><a href="#">Join</a></li>
+        </ul>
+    </nav>
+    <main >
+        <div class="hero">
+            <section>
+                <h1>A community that cares about you and your business.</h1>
+                <h3>Sankofa Chamber of Commerce - Adenta</h3>
+            </section>
+            <div>
+                <p>Discover so unique sites and business opportunities here in Adenta.
+                    There are many opportunities for everyone. Click the button and learn more.
+                </p>
+                <a href="#">Learn More</a>
+            </div>
+            <picture>
+                <source srcset="images/hero-smalla.webp" media="(max-width: 500px)">
+                <source srcset="images/hero-mediuma.webp" media="(max-width: 1000px)">
+                <img class="hero-img" src="images/hero-largea.webp" alt="picture of people" width="1500" height="750" loading="lazy">
+            </picture>
+        </div>
+        <hr>
+        <div class="discover">
+            <div class="tourist-site">
+                <h2>Visit our unique sites</h2>
+                <section>
+                    <img src="images/Rufus-Green-Main-Park.webp" alt="image of park" loading="lazy">
+                    <p>Lorem ipsum dolor sit.</p>
+                </section>
+                <section>
+                    <img src="images/home-away-suites.webp" alt="image of hotel" loading="lazy">
+                    <p>Lorem ipsum dolor sit.</p>
+                </section>
+                <section>
+                    <img src="images/kwame-nkurmah.webp" alt="image of meseum" loading="lazy">
+                    <p>Lorem ipsum dolor sit.</p>
+                </section>
+            </div>
+            <hr>
+            <div class="businesses">
+                <h2>Business Spotlight</h2>
+                <section>
+                    <img src="images/cap-boutik logo1.jpg" alt="image">
+                    <p>Lorem ipsum dolor sit.</p>
+                </section>
+                <section>
+                    <img src="images/SerDave-new-logo-no-background1.png" alt="image">
+                    <p>Lorem ipsum dolor sit.</p>
+                </section>
+                <section>
+                    <img src="images/QueenKhay-logo.png" alt="image">
+                    <p>Lorem ipsum dolor sit.</p>
+                </section>
+            </div>
+            <hr>
+            <div class="side"><!--side bar-->
+                <section>
+                    <img src="images/product-flyer(car).webp" alt="image">
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ex, hic.</p>
+                </section>
+                <section>
+                    <h2>Events</h2>
+                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Autem, aliquam!</p>
+                </section>
+                <section>
+                    <h2>Job Ads</h2>
+                    <p>Lorem ipsum dolor sit.</p>
+                    <p>Lorem ipsum dolor sit.</p>
+                    <p>Lorem ipsum dolor sit.</p>
+                </section>
+            </div>
+        </div>
+    </main>
+    <footer>
+        <a class="logo-link" href="index.html">
+            <img class="logo" src="images/Sankofa-logo.png" alt="logo Image">
+        </a>
+        <p class="p-info">Jonathan Koranteng - WDD230 Project - Sankofa &copy; <span id="year"></span></p>
+        <p class="o-info">Last Modified: <span id="lastModified"></span></p>
+        <p class="nav-D"><a href="#">Discover</a></p>
+        <p class="nav-J"><a href="#">Join</a></p>        
+        <div id="socials">
+            <a href="#" target="_blank">
+                <img src="images/whatsapp.png" alt="whatsapp icon">
+            </a>
+            <a href="#" target="_blank">
+                <img src="images/facebook.png" alt="facebook icon">
+            </a>
+            <a href="#" target="_blank">
+                <img src="images/instagram.png" alt="instagram icon">
+            </a>
+            <a href="#" target="_blank">
+                <img src="images/linkedin.png" alt="linkedin icon">
+            </a>
+        </div>
+    </footer>
+    <script src="scripts/main.js"></script>
+</body>
+</html>

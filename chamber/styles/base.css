@@ -143,6 +143,7 @@ header {
 
 .hero-img {
     width: 95%;
+    height: auto;
     margin: 0 auto;
     border-radius: 20px;
 }
@@ -190,7 +191,7 @@ header {
     border-radius: 20px;
 }
 
-.top h2, .cards h2, .center h2, #images-box h2 {
+.top h2, .cards h2, .center h2, #images-box h2, .discover h2{
     font-family: "Acme", "helvetica";
     font-size: 1.9rem;
 }
@@ -277,3 +278,20 @@ footer {
     padding: 20px;
 }
 
+.tourist-site img, .businesses img, .side img{
+    width: 100px;
+}
+
+.discover img, .hero-img, .side img {
+    animation: fade 15s;
+}
+
+@keyframes fade {
+    0% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}

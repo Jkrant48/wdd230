@@ -30,7 +30,7 @@
         <button type="button" title="title" id="myButton"></button>
         <ul class="menuList">
             <li class="active"><a href="index.html">Home</a></li>
-            <li><a href="#">Discover</a></li>
+            <li><a href="discover.html">Discover</a></li>
             <li><a href="#">Directory</a></li>
             <li><a href="#">Join</a></li>
         </ul>
@@ -48,8 +48,11 @@
                 </p>
                 <a href="#">Learn More</a>
             </div>
-            <img class="hero-img" src="images/accra.jpg" alt="picture of accra">
-            
+            <picture>
+                <source srcset="images/hero-small1.webp" media="(max-width: 500px)">
+                <source srcset="images/hero-medium1.webp" media="(max-width: 1000px)">
+                <img class="hero-img" src="images/hero-large1.webp" alt="picture of accra" width="1500" height="750">
+            </picture>
         </div>
         <hr>
         <section class="top">
