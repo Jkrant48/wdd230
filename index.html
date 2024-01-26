@@ -20,7 +20,7 @@
 </head>
 <body>
     <header>
-        <img id="myimg" src="images/mypicture.jpg" alt="picture-of-myself">
+        <img id="myimg" src="images/mypicture.webp" alt="picture-of-myself">
         <span>Jonathan Nkansah Koranteng</span>
         <img src="images/dark-theme-svgrepo-com.svg" alt="dark mode" id="darkBtn">
     </header>
@@ -34,6 +34,17 @@
         </ul>
     </nav>
     <main>
+        <div class="hero">
+            <picture>
+                <source srcset="images/hero-small.webp" media="(max-width: 500px)">
+                <source srcset="images/hero-medium.webp" media="(max-width: 1000px)">
+                <img src="images/hero-large.webp" alt="hero image" width="1500" height="750 ">
+            </picture>
+            <div>
+                <H3>Accra Ghana Temple</H3>
+                <p>Jonathan Koranteng - WDD230</p>
+            </div>
+        </div>
         <h1>WDD 230: Web Frontend Development</h1>
         <section class="card">
             <h2>Learning Activities</h2>
@@ -42,7 +53,8 @@
                     | <a href="https://codepen.io/Jonathan-Koranteng/pen/OJqNYPO">JS Pen</a></li>
                 <li>Week 02: <a href="week02/design.html">Design</a> | <a href="https://codepen.io/Jonathan-Koranteng/pen/XWGpLjw">Responsive Menu</a> | 
                 <a href="week02/bom.html">B.O.M app</a></li> 
-                <li>Week 03: <a href="week03/images/landscape.webp">WebP</a> | <a href="week03/lazyload.html">lazyload</a> | <a href="week03/responsive-images.html">Responsive Images</a></li>
+                <li>Week 03: <a href="week03/images/landscape.webp">WebP</a> | <a href="week03/lazyload.html">lazyload</a> | <a href="week03/responsive-images.html">Responsive Images</a> | 
+                <a href="week03/bom.html">Local Storage(BOM)</a></li>
                 <li>Week 04:</li>
                 <li>Week 05:</li>
                 <li>Week 06:</li>
@@ -50,8 +62,15 @@
         </section>
         <section class="card">
             <h2>Information</h2>
+            <p>City: Accra</p>
+            <p>Temp: 29 &deg;C </p>
+            <p>Number of visits: <Span id="visits"></Span></p>
+
         </section>
     </main>
+    <iframe title="maps" src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d9120.229429234454!2d-0.14082204719573774!3d5.74052865241217!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2sgh!4v1706229725158!5m2!1sen!2sgh" 
+        width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade">
+    </iframe>
     <footer>
         <p>&copy; <span id="year"></span> | Jonathan Nkansah Koranteng | Ghana</p>
         <p class="lastModified">Last Modification: <Span id="lastModified"></Span></p>

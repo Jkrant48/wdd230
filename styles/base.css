@@ -6,13 +6,34 @@
 body {
     margin: 0 auto;
     font-family: 'Roboto Slab', serif;
-    max-width: 640px;
+    max-width: 940px;
     text-align: center;
 }
 
 body.dark {
     background-color: #000;
     color:#fff;
+}
+
+.hero {
+    position: relative;
+}
+
+.hero img {
+    width: 100%;
+    height: auto;
+    display: block;
+    
+}
+
+.hero div {
+    color: #fff;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    background-color: rgba(8, 7, 71, 0.5);
+    padding: 1rem;
+    font-size: 1rem;
 }
 
 header, .card h2, footer {
@@ -129,6 +150,29 @@ main h1 {
     color: #fff;
 }
 
+.card p {
+    color: #fff;
+    padding-top: 1rem;
+}
+
 .lastModified {
     color: yellow;
+}
+
+iframe {
+    width: 100%;
+    height: auto;
+    display: block;
+    animation: fade 15s;
+    margin-bottom: 10px;
+}
+
+@keyframes fade {
+    0% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1;
+    }
 }
