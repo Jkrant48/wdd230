@@ -99,7 +99,7 @@
         grid-gap: 10px;
     }
 
-    .hero, .cards, .center, .info, #images-box{
+    .hero, .cards, .center, .info, #images-box, .discover section{
         margin: 40px 0 60px 0;
     }
 
@@ -109,24 +109,18 @@
 
     .tourist-site section, .businesses section {
         display: flex;
+        align-items: center;
     }
 
     .discover{
-        display: grid;
-        grid-template-columns: 1fr 3fr;
+        display: flex;
     }
 
-    .tourist-site{
-        grid-column: 2/3;
-        grid-row: 1/2;
-    }
-
-    .businesses {
-        grid-column: 2/3;
+    .discover img:hover {
+        box-shadow: 0 0 50px #000;
     }
 
     .side {
-        grid-column: 1/2;
-        grid-row: 1/3;
+        width: 95%;
     }
 }

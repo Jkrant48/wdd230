@@ -153,7 +153,7 @@ header {
     font-size: 2.2rem;
 }
 
-.hero h3, .hero a, .top p, .cards p, .communityinfo, footer p , #socials{
+.hero h3, .hero a, .top p, .cards p, .communityinfo, footer p , #socials, .discover p{
     margin: 10px 0 0 0;
 }
 
@@ -279,11 +279,37 @@ footer {
 }
 
 .tourist-site img, .businesses img, .side img{
-    width: 100px;
+    width: 50%;
+}
+
+.tourist-site{
+    padding: 20px;
+}
+
+.tourist-site img {
+    margin-right: 10px;
+}
+
+.heading {
+    padding: .5rem;
 }
 
 .discover img, .hero-img, .side img {
     animation: fade 15s;
+}
+
+.tourist-site img {
+    border-radius: 20px;
+}
+
+.businesses {
+    padding: 20px;
+}
+
+.side {
+    background-color: #463F3A;
+    color: #FAFAFA;
+    padding: 20px;
 }
 
 @keyframes fade {
