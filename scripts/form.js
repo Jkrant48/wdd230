@@ -1,7 +1,7 @@
 //rating
 
 const rangevalue = document.getElementById("rangevalue");
-const range = document.getElementById("r");
+const range = document.getElementById("range");
 
 range.addEventListener("change", displayRatingValue);
 range.addEventListener("input", displayRatingValue);
@@ -14,7 +14,7 @@ function displayRatingValue() {
 const pwd1 = document.querySelector("#password");
 const pwd2 = document.querySelector("#password2");
 
-const msg = document.querySelect("#message");
+const msg = document.querySelector("#message");
 
 pwd2.addEventListener("focusout", checkSame);
 

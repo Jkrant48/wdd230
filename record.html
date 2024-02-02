@@ -4,8 +4,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="author" content="Jonathan Nkansah Koranteng">
-    <meta name="description" content="Jonathan Nkansah Koranteng WDD 230 - Web Frontend Development - Form">
-    <title>Form page - WDD 230 - Web Frontend Development</title>
+    <meta name="description" content="Jonathan Nkansah Koranteng WDD 230 - Web Frontend Development - Recorded">
+    <title>Recorded - WDD 230 - Web Frontend Development</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Crimson+Text&family=Pacifico&family=Roboto+Slab&family=Salsa&display=swap" rel="stylesheet">
@@ -28,45 +28,26 @@
     <nav>
         <button type="button" title="Text" id="myButton"></button>
         <ul class="menuLinks">
-            <li><a href="index.html">Home</a></li>
+            <li class="active"><a href="index.html">Home</a></li>
             <li><a href="chamber/index.html">Chamber</a></li>
             <li><a href="week01/chamber-site-plan.html">Site Plan</a></li>
-            <li class="active"><a href="form.html">Form</a></li>
+            <li><a href="form.html">Form</a></li>
         </ul>
     </nav>
     <main class="form-page">
+        <div class="hero">
+            <picture>
+                <source srcset="images/hero-small.webp" media="(max-width: 500px)">
+                <source srcset="images/hero-medium.webp" media="(max-width: 1000px)">
+                <img src="images/hero-large.webp" alt="hero image" width="1500" height="750">
+            </picture>
+            <div>
+                <H3>Accra Ghana Temple</H3>
+                <p>Jonathan Koranteng - WDD230</p>
+            </div>
+        </div>
         <h1 class="formHeading">Your feedback helps us improve.</h1>
-        <div id="message"></div>
-       <form method="get" action="record.html">
-        <fieldset>
-            <legend>Rate Us</legend>
-            <label for="username">Username*<input type="text" name="uname" id="username" required></label>
-            <label for="password">Password*<input type="password" name="pwd" id="password" pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{8,}" 
-               title="Must contain at least one number and one uppercase and lowercase latter, and at least 8 or more characters" 
-               required></label>
-            <label for="password2">Repeat Password*<input type="password" name="pwd" id="password2" required></label>
-            <label>Email*<input type="email" name="email" id="useremail" pattern="[a-zA-Z0-9._%+-]+@byui\.edu$"
-                title="Please enter a valid email address" placeholder="someone@byui.edu" required></label>
-
-            <label for="range">Rating</label>
-            <input type="range" id="range" name="range" min="1" max="10" value="1" step="1" list="rangevalues">
-            <datalist id="rangevalues">
-                <option value="1">1</option>
-                <option value="2">2</option>
-                <option value="3">3</option>
-                <option value="4">4</option>
-                <option value="5">5</option>
-                <option value="6">6</option>
-                <option value="7">7</option>
-                <option value="8">8</option>
-                <option value="9">9</option>
-                <option value="10">10</option>
-            </datalist>
-            <div id="rangevalue">0</div>
-        </fieldset>
-
-        <input type="submit" value="Send Feedback" class="submitBtn">
-       </form>
+        <P>Thank you for your feedback. We will continue to improve in order to provide the best experience for you.</P>
     </main>
     <footer>
         <p>&copy; <span id="year"></span> | Jonathan Nkansah Koranteng | Ghana</p>
@@ -74,6 +55,5 @@
     </footer>
     <script src="scripts/getDates.js"></script>
     <script src="scripts/main.js"></script>
-    <script src="scripts/form.js"></script>
 </body>
 </html>
