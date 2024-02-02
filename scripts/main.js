@@ -32,3 +32,4 @@ visitsCount++;
 //key='numVisits'
 
 localStorage.setItem("numVisits", visitsCount);
+

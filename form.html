@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Jonathan Nkansah Koranteng">
+    <meta name="description" content="Jonathan Nkansah Koranteng WDD 230 - Web Frontend Development - Course assignment portal">
+    <title>Jonathan Nkansah Koranteng - WDD 230 - Web Frontend Development</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Crimson+Text&family=Pacifico&family=Roboto+Slab&family=Salsa&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles/normalize.css">
+    <link rel="stylesheet" href="styles/base.css">
+    <link rel="stylesheet" href="styles/larger.css">
+    <link rel="stylesheet" href="styles/form.css">
+    <link rel="icon" href="favicon.ico">
+    <meta property="og:title" content="WDD230 assignment homepage">
+    <meta property="og:type" content="website">
+    <meta property="og:image" content="https://media.istockphoto.com/id/1137547114/photo/independence-arch-accra-ghana.jpg?s=1024x1024&w=is&k=20&c=9u_WjMT4OMMYpLJDHEnrWTQ_HS7iVEoqCxeszIxXpeU=">
+    <meta property="og:url" content="https://jkrant48.github.io/wdd230/index.html">
+</head>
+<body>
+    <header>
+        <img id="myimg" src="images/mypicture.webp" alt="picture-of-myself">
+        <span>Jonathan Nkansah Koranteng</span>
+        <img src="images/dark-theme-svgrepo-com.svg" alt="dark mode" id="darkBtn">
+    </header>
+    <nav>
+        <button type="button" title="Text" id="myButton"></button>
+        <ul class="menuLinks">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="chamber/index.html">Chamber</a></li>
+            <li><a href="week01/chamber-site-plan.html">Site Plan</a></li>
+            <li class="active"><a href="form.html">Form</a></li>
+        </ul>
+    </nav>
+    <main class="form-page">
+        <h1 class="formHeading">Your feedback helps us improve.</h1>
+        <div id="message"></div>
+       <form method="get" action="#">
+        <fieldset>
+            <legend>Rate Us</legend>
+            <label for="Username">Username*<input type="text" name="uname" id="username" required></label>
+            <label for="password">Password*<input type="password" name="pwd" id="password" pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{8,}" 
+               title="Must contain at least one number and one uppercase and lowercase latter, and at least 8 or more characters" 
+               required></label>
+            <label for="password2">Repeat Password*<input type="password" name="pwd" id="password2" required></label>
+            <label>Email*<input type="email" name="email" id="useremail" pattern="[a-zA-Z0-9._%+-]+@byui\.edu$"
+                title="Please enter a valid email address" placeholder="someone@byui.edu" required></label>
+
+            <label for="range">Rating</label>
+            <input type="range" id="r" name="range" min="1" max="10" value="1" step="1" list="rangevalues">
+            <datalist id="rangevalues">
+                <option value="1">1</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+                <option value="4">4</option>
+                <option value="5">5</option>
+                <option value="6">6</option>
+                <option value="7">7</option>
+                <option value="8">8</option>
+                <option value="9">9</option>
+                <option value="10">10</option>
+            </datalist>
+            <div id="rangevalue">0</div>
+        </fieldset>
+
+        <input type="submit" value="Send Feedback" class="submitBtn">
+       </form>
+    </main>
+    <footer>
+        <p>&copy; <span id="year"></span> | Jonathan Nkansah Koranteng | Ghana</p>
+        <p class="lastModified">Last Modification: <Span id="lastModified"></Span></p>
+    </footer>
+    <script src="scripts/getDates.js"></script>
+    <script src="scripts/main.js"></script>
+    <script src="scripts/form.js"></script>
+</body>
+</html>
