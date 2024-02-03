@@ -123,4 +123,15 @@
     .side {
         width: 95%;
     }
+
+    .membership {
+        padding-top: 2rem;
+        display: grid;
+        grid-template-columns: 2fr 1fr;
+        grid-gap: 1rem;
+    }
+
+    form label.sbs {
+        padding: .4rem;
+    }
 }

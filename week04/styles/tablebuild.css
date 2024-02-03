@@ -7,6 +7,39 @@
     padding: 0;
 }
 
-.row {
-    margin-top: var(--border);
+h1 {
+    border: 1px solid red;
 }
+
+body {
+    display: block;
+    text-align: center;
+}
+
+tr th {
+    padding: 0.5rem;
+    border-top: var(--border);
+    border-left: var(--border);
+    border-bottom: var(--border);
+}
+
+tr td {
+    padding: 0.5rem;
+    border-bottom: var(--border);
+    border-left: var(--border);
+}
+tr td:last-child{
+    border-right: var(--border);
+
+}
+tr th:last-child{
+    border-right: var(--border);
+
+}
+
+table {
+    margin-top: 10px;
+    text-align: center;
+    margin: auto;
+    border-collapse: collapse;
+}   
