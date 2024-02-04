@@ -56,6 +56,81 @@
         </div>
         <hr>
         <div class="membership">
+            <div class="membershipCards">
+                <h2>Our packages</h2>
+                <div class="flip-card">
+                    <div class="flip-card-inner">
+                      <div class="flip-card-front">
+                        <img src="images/non-profit.png" alt="love symbol" >
+                        <h3>NP Membership</h3>
+                      </div>
+                      <section class="flip-card-back">
+                        <h3>NP Membership</h3>
+                        <p>For non-profit Organisations</p>
+                        <p>
+                            Fees: none <br>
+                            Benefits: Exposure to businesses, <br>
+                            avialability of volunteers, <br>
+                            meet to officials and many more.</p>
+                      </section>
+                    </div>
+                </div>
+                <div class="flip-card">
+                    <div class="flip-card-inner">
+                      <div class="flip-card-front">
+                        <img src="images/bronze-coin.png" alt="bronze coin" >
+                        <h3>Bronze Membership</h3>
+                      </div>
+                      <section class="flip-card-back">
+                        <h3>Bronze Membership</h3>
+                        <p>Basic level</p>
+                        <p>Fees: Ghc 400/year
+                            Benefits: Networking opportunities, <br>
+                            business exposure, <br>
+                            educational resources, <br>
+                            advocacy support.
+                        </p>
+                      </section>
+                    </div>
+                </div>
+                <div class="flip-card">
+                    <div class="flip-card-inner">
+                      <div class="flip-card-front">
+                        <img src="images/silver.png" alt="silver bar" >
+                        <h3>Silver Membership</h3>
+                      </div>
+                      <section class="flip-card-back">
+                        <h3>Silver Membership</h3>
+                        <p>Intermediate level</p>
+                        <p>Fees: Ghc 700/year <br>
+                            Benefits: Enhanced networking, <br>
+                            marketing opportunities, <br>
+                            sponsorhip opportunities, <br>
+                            government relations.
+                        </p>
+                      </section>
+                    </div>
+                </div>
+                <div class="flip-card">
+                    <div class="flip-card-inner">
+                      <div class="flip-card-front">
+                        <img src="images/gold.png" alt="gold bar" >
+                        <h3>Gold Membership</h3>
+                      </div>
+                      <section class="flip-card-back">
+                        <h3>Gold Membership</h3>
+                        <p>highest Level</p>
+                        <p>Fees: Ghc 1000/year <br>
+                            Benefits: Event discounts up to 70%, <br>
+                            2 weeks free advertising per month, <br>
+                            exclusive events, <br>
+                            leadership opportunities, <br>
+                            Global recognition.
+                        </p>
+                      </section>
+                    </div>
+                </div>            
+            </div>
             <div>
                 <h2>Join the Chamber</h2>
                 <form method="get" action="thankyou.html">
@@ -63,7 +138,7 @@
                         <Legend>Applicant Information</Legend>
                         <label class="mInfo" for="firstname">First Name*<input type="text" name="fname" id="firstname" required></label>
                         <label class="mInfo" for="lastname">Last Name*<input type="text" name="lname" id="lastname" required></label>
-                        <label class="mInfo" for="postion">Title/Position<input type="text" name="title" id="postion" ></label> <!--fix pattern-->
+                        <label class="mInfo" for="postion">Title/Position<input type="text" name="title" id="postion" pattern="([a-zA-Z- ]{7,})"></label>
                         <label class="mInfo" for="email">Email*<input type="email" name="mail" id="email" placeholder="someone@gmail.com" required></label>
                         <label class="mInfo" for="phone">Mobile Phone Number*<input type="tel" name="phonenumber" id="phone" required></label>
                         <label class="mInfo" for="bname">Business/Organisation's Name*<input type="text" name="bname" id="bname" required></label>
@@ -83,81 +158,7 @@
                     <input type="submit" name="Send My Application" id="submitBtn">
                 </form>
             </div>
-            <div class="membershipCards">
-                <h2>Our packages</h2>
-                <div class="flip-card">
-                    <div class="flip-card-inner">
-                      <div class="flip-card-front">
-                        <img src="images/non-profit.png" alt="love symbol" ><!--style="width:300px;height:300px;"-->
-                        <h3>NP Membership</h3>
-                      </div>
-                      <section class="flip-card-back">
-                        <h3>NP Membership</h3>
-                        <p>For non-profit Organisations</p>
-                        <p>
-                            Fees: none <br>
-                            Benefits: Exposure to businesses, <br>
-                            avialability of volunteers, <br>
-                            meet to officials and many more.</p>
-                      </section>
-                    </div>
-                </div>
-                <div class="flip-card">
-                    <div class="flip-card-inner">
-                      <div class="flip-card-front">
-                        <img src="images/bronze-coin.png" alt="bronze coin" ><!--style="width:300px;height:300px;"-->
-                        <h3>Bronze Membership</h3>
-                      </div>
-                      <section class="flip-card-back">
-                        <h3>Bronze Membership</h3>
-                        <p>Basic level</p>
-                        <p>Fees: Ghc 400/year
-                            Benefits: Networking opportunities, <br>
-                            business exposure, <br>
-                            educational resources, <br>
-                            advocacy support.
-                        </p>
-                      </section>
-                    </div>
-                </div>
-                <div class="flip-card">
-                    <div class="flip-card-inner">
-                      <div class="flip-card-front">
-                        <img src="images/silver.png" alt="silver bar" ><!--style="width:300px;height:300px;"-->
-                        <h3>Silver Membership</h3>
-                      </div>
-                      <section class="flip-card-back">
-                        <h3>Silver Membership</h3>
-                        <p>Intermediate level</p>
-                        <p>Fees: Ghc 700/year <br>
-                            Benefits: Enhanced networking, <br>
-                            marketing opportunities, <br>
-                            sponsorhip opportunities, <br>
-                            government relations.
-                        </p>
-                      </section>
-                    </div>
-                </div>
-                <div class="flip-card">
-                    <div class="flip-card-inner">
-                      <div class="flip-card-front">
-                        <img src="images/gold.png" alt="gold bar" ><!--style="width:300px;height:300px;"-->
-                        <h3>Gold Membership</h3>
-                      </div>
-                      <section class="flip-card-back">
-                        <h3>Gold Membership</h3>
-                        <p>highest Level</p>
-                        <p>Fees: Ghc 1000/year <br>
-                            Benefits: Event discounts up to 70%, <br>
-                            2 weeks free advertising per month, <br>
-                            exclusive events, <br>
-                            leadership opportunities, <br>
-                            Global recognition.
-                        </p>
-                      </section>
-                    </div>
-                </div>            
-            </div>
+            
         </div>
     </main>
     <footer>
