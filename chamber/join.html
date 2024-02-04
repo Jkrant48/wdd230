@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="author" content="Jonathan Nkansah Koranteng">
-    <meta name="description" content="Chamber website - WDD 230">
+    <meta name="description" content="Chamber website - WDD 230 - Join page">
     <title>Sankofa Chamber of Commerce | Join</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -142,7 +142,7 @@
                         <label class="mInfo" for="email">Email*<input type="email" name="mail" id="email" placeholder="someone@gmail.com" required></label>
                         <label class="mInfo" for="phone">Mobile Phone Number*<input type="tel" name="phonenumber" id="phone" required></label>
                         <label class="mInfo" for="bname">Business/Organisation's Name*<input type="text" name="bname" id="bname" required></label>
-                        <label class="mInfo" for="bdescrip">Business/Organisation's Description<input type="text" name="bdescription" id="bdescrip"></label>
+                        <label class="mInfo" for="bdescrip">Business/Organisation's Description<textarea name="bdescription" id="bdescrip" cols="30" rows="10"></textarea></label>
                     </fieldset>
                     <fieldset>
                         <legend>Membership Level</legend>
@@ -153,7 +153,7 @@
                     </fieldset>
 
                     <!--Timestamp-->
-                    <input type="hidden" name="timestamp" id="timestamp">
+                    <label><input type="hidden" name="timestamp" id="timestamp"></label>
 
                     <input type="submit" name="Send My Application" id="submitBtn">
                 </form>
