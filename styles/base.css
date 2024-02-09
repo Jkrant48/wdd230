@@ -36,7 +36,7 @@ body.dark {
     font-size: 1rem;
 }
 
-header, .card h2, footer {
+header, .card1 h2, .card2 h2, footer {
     background-color: #19535F;
     color: #fff;
     padding: 1rem;
@@ -128,7 +128,7 @@ main h1 {
     font-size: 25px;    
 }
 
-.card {
+.card1 {
     border: 1px solid #272626;
     border-radius: 10px;
     overflow: hidden;
@@ -136,21 +136,38 @@ main h1 {
     background-color:#564138;
 }
 
-.card ul {
+.card2 {
+    border: 1px solid #272626;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0px 1px 5px #343333;
+}
+
+.card2 div {
+    padding: 1rem;
+}
+
+#description {
+    text-transform: capitalize;
+    font-size: 1.2rem;
+    padding-bottom: 10px;
+}
+
+.card1 ul {
     text-align: left;
     padding: 1rem;
 }
 
-.card ul li {
+.card1 ul li {
     color: #fff;
 }
 
-.card a{
+.card1 a{
     text-decoration: none;
     color: #fff;
 }
 
-.card p {
+.card1 p {
     color: #fff;
     padding-top: 1rem;
 }

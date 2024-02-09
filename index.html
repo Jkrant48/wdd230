@@ -46,7 +46,7 @@
             </div>
         </div>
         <h1>WDD 230: Web Frontend Development</h1>
-        <section class="card">
+        <section class="card1">
             <h2>Learning Activities</h2>
             <ul>
                 <li>Week 01: <a href="week01/holygrail.html">Layout</a> | <a href="week01/media-query.html">Media Query</a> 
@@ -57,16 +57,19 @@
                 <a href="week03/bom.html">Local Storage(BOM)</a></li>
                 <li>Week 04: <a href="https://codepen.io/Jonathan-Koranteng/pen/rNRdVZo">CSS Pseudo-Classes</a> | <a href="images/combinations.png">CSS combinators</a> | 
                     <a href="week04/tablebuild.html">Table Activity</a> | <a href="week04/index.html">Form</a></li>
-                <li>Week 05:</li>
-                <li>Week 06:</li>
+                <li>Week 05: <a href="https://codepen.io/Jonathan-Koranteng/pen/wvOxNVa">Pseudo-elements</a> | <a href="week05/new-ward-members.json">json</a> | <a href="week05/prophets.html">Fetch API</a> 
+                | <a href="week05/weather.html">Weather API</a> </li>
             </ul>
         </section>
-        <section class="card">
+        <section class="card2">
             <h2>Information</h2>
-            <p>City: Accra</p>
-            <p>Temp: 29 &deg;C </p>
-            <p>Number of visits: <Span id="visits"></Span></p>
-
+            <div>
+                <h3> City: <span id="town"></span></h3>
+                <img id="graphic" src="" alt="">
+                <p id="temperature"></p>
+                <p id="description"></p>
+                <p>Number of visits: <Span id="visits"></Span></p>
+            </div>
         </section>
     </main>
     <iframe title="maps" src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d9120.229429234454!2d-0.14082204719573774!3d5.74052865241217!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2sgh!4v1706229725158!5m2!1sen!2sgh" 
@@ -78,5 +81,6 @@
     </footer>
     <script src="scripts/getDates.js"></script>
     <script src="scripts/main.js"></script>
+    <script src="scripts/weather.js"></script>
 </body>
 </html>

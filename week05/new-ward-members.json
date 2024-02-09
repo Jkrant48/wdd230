@@ -1,0 +1,55 @@
+
+[
+    {   
+    "familyName": "Koranteng Family",
+    "dateFamilyMoveToWard": "22nd December, 2023",
+    "numOfPeopleInFamily": 3,
+    "visitedByBishop": false,
+    "namesOfFamilyMembers": [
+        {
+            "name": "Jonathan Nkansah Koranteng Snr",
+            "gender": "Male",
+            "birthDate": "14th February"
+        },
+        {
+            "name": "Jonathan Nkansah Koranteng Jnr",
+            "gender": "Male",
+            "birthDate": "16th December"
+        },
+        {
+            "name": "Janet Osafo Koranteng",
+            "gender": "Female",
+            "birthDate": "25th July"
+        }
+    ]
+    },
+
+    {   
+    "familyName": "Koranteng Family",
+    "dateFamilyMoveToWard": "1st January, 2023",
+    "numOfPeopleInFamily": 4,
+    "visitedByBishop": true,
+    "namesOfFamilyMembers": [
+        {
+            "name": "Kwasi Osafo Koranteng",
+            "gender": "Male",
+            "birthDate": "14th February"
+        },
+        {
+            "name": "John Nkansah Koranteng",
+            "gender": "Male",
+            "birthDate": "16th December"
+        },
+        {
+            "name": "Ohemaa Dokuaa Koranteng",
+            "gender": "Female",
+            "birthDate": "25th July"
+        },
+        {
+            "name": "Janet Adwoa Koranteng",
+            "gender": "Female",
+            "birthDate": "25th July" 
+        }
+    ]
+    } 
+]
