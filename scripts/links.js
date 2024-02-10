@@ -2,7 +2,7 @@ const baseURL = "http://Jkrant48.github.io/wdd230/";
 
 const linksURL = "http://Jkrant48.github.io/wdd230/data/links.json";
 
-async function getLinks() {
+async function getLinks(linksURL) {
     try {
         const response = await fetch(linksURL);
         if (response.ok) {
@@ -17,28 +17,29 @@ async function getLinks() {
     }
 }
 
-function displayLinks(weeks) {
+function displayLinks(weeksData) {
     const activities = document.querySelector("#activities");
-    weeks.forEach(week => {
+    weeksData.weeks.forEach(week => {
         const li = document.createElement("li");
 
         let list = [];
-        week["links"].forEach(link => {
+        week.links.forEach(link => {
             const a = document.createElement("a");
             a.textContent = `${link.title}`;
-            a.href = link.url;
+            a.href = baseURL + link.url;
             list.push(a);
         })
 
-        li.innerHTML = `${week}:`;
-        list.forEach(link => {
+        li.innerHTML = `${week.week}: `;
+        list.forEach((link, index) => {
             li.appendChild(link);
-            if (list.indexOf(link) != list.length - 1) {
-                li.appendChild(" | ");
+            if (index !== list.length - 1) {
+                const separator = document.createTextNode(" | ");
+                li.appendChild(separator);
             }
         })
         activities.appendChild(li);
     })
 }
 
-getLinks();
+getLinks(linksURL);
