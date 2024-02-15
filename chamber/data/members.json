@@ -1,60 +1,60 @@
 {
     "companies": [
         {
-            "name": "",
-            "address": "",
-            "phone-number": "",
-            "website": "",
-            "logo-image": "",
-            "membership-level": ""
+            "name": "Queenkhay Cleaning Service",
+            "address": "GD-101-7124",
+            "phone-number": "0303456789",
+            "website": "queenkhay.com",
+            "logo-image": "https://z-p3-scontent.facc5-2.fna.fbcdn.net/v/t39.30808-6/327102222_8713040795437392_1136463217418689729_n.jpg?_nc_cat=105&ccb=1-7&_nc_sid=efb6e6&_nc_eui2=AeEoKOkAJFVl3alQQ_GE2g-kizA61wgL5BSLMDrXCAvkFAf5dpQXhWQoQUJlNjo0rOh4iIPMWIjzLehZu0hvBiaj&_nc_ohc=99999tsLH0EAX8m9_Mf&_nc_ht=z-p3-scontent.facc5-2.fna&oh=00_AfC3nDFFl94PatWmLofrGFr_PDvjezY_AKiWAWUoz-jZfg&oe=65D2885B",
+            "membership-level": "Silver"
         },
         {
-            "name": "",
-            "address": "",
-            "phone-number": "",
-            "website": "",
-            "logo-image": "",
-            "membership-level": ""
+            "name": "SerDave Naturelle",
+            "address": "GD-101-7124",
+            "phone-number": "0305679809",
+            "website": "SerDaveNaturelle.com",
+            "logo-image": "https://z-p3-scontent.facc5-1.fna.fbcdn.net/v/t39.30808-6/415998139_870431768116683_3742855273030267167_n.jpg?_nc_cat=100&ccb=1-7&_nc_sid=efb6e6&_nc_eui2=AeFwm-DcRh7ePU-dlQ1cbiQ4Qi12Wnun_utCLXZae6f-6zCw0ozt_TN_8S3s1atvk2Josvka1TvKQuQizdoKCtY6&_nc_ohc=qSE-8rOE_48AX-ShlVt&_nc_ht=z-p3-scontent.facc5-1.fna&oh=00_AfBDs51M6DL0d6_Q3z0aTbyqNxt_yW_SmUflFAmtVtR1Ow&oe=65D38CAA",
+            "membership-level": "silver"
         },
         {
-            "name": "",
-            "address": "",
-            "phone-number": "",
-            "website": "",
-            "logo-image": "",
-            "membership-level": ""
+            "name": "Cap Boutik",
+            "address": "GD-101-7124",
+            "phone-number": "0303456789",
+            "website": "Caps.com",
+            "logo-image": "https://z-p3-scontent.facc5-2.fna.fbcdn.net/v/t39.30808-6/271485529_456903152730221_8148160359917528786_n.jpg?_nc_cat=111&ccb=1-7&_nc_sid=efb6e6&_nc_eui2=AeGTMKk-7ahB2LaFn3yb6z6FmiTugPpgjM6aJO6A-mCMzk32b4fme1XT-erBS1L54LfhaR1_wBrNdslKLmRlXH26&_nc_ohc=ySym2Ah6_8EAX98YlNa&_nc_oc=AQnFikqCuGfCszC3bEMpsJWAEbuneQZA388HSOcFCZ48oCGXCCPTrCgBX3fyGp_qD2I&_nc_ht=z-p3-scontent.facc5-2.fna&oh=00_AfD8oFblcAUOHUhEtu-J1EnWmKEpeCY5HJTMOybgOnZ8xA&oe=65D37DDB",
+            "membership-level": "Gold"
         },
         {
-            "name": "",
-            "address": "",
-            "phone-number": "",
-            "website": "",
-            "logo-image": "",
-            "membership-level": ""
+            "name": "Dream Big Ghana",
+            "address": "GD-101-7124",
+            "phone-number": "0304567890",
+            "website": "https://dreambigghana.org.uk/",
+            "logo-image": "https://dreambigghana.org.uk/wp-content/uploads/2019/02/dreambigghana-logo.jpg",
+            "membership-level": "NP-(Non-profit)"
         },
         {
-            "name": "",
-            "address": "",
-            "phone-number": "",
-            "website": "",
-            "logo-image": "",
-            "membership-level": ""
+            "name": "The Hide Out Guest House",
+            "address": "GD-101-7124",
+            "phone-number": "0304456789",
+            "website": "thehideout.com",
+            "logo-image": "https://lh5.googleusercontent.com/p/AF1QipNg96iJpC-TJ_6PUgby4Odpvez0OTv33C5ZE3Zf=w408-h306-k-no",
+            "membership-level": "Silver"
         },
         {
-            "name": "",
-            "address": "",
-            "phone-number": "",
-            "website": "",
-            "logo-image": "",
-            "membership-level": ""
+            "name": "Rufus Green Park",
+            "address": "GD-101-7124",
+            "phone-number": "0304567890",
+            "website": "rufusgreenpark.com",
+            "logo-image": "https://www.instagram.com/p/CvAg8H_s-IN/",
+            "membership-level": "Bronze"
         },
         {
-            "name": "",
-            "address": "",
-            "phone-number": "",
-            "website": "",
-            "logo-image": "",
-            "membership-level": ""
+            "name": "Papa's Pizza Adenta",
+            "address": "GD-101-7124",
+            "phone-number": "0305678990",
+            "website": "papa's.com",
+            "logo-image": "https://lh5.googleusercontent.com/p/AF1QipPt4qAchUyaoT4fqFwG9kFlIOScmzr88I9_zrQF=w408-h306-k-no",
+            "membership-level": "Bronze"
         }
     ]
 }
