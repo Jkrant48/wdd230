@@ -139,7 +139,16 @@
         display: grid;
         grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
         grid-gap: 10px;
-        align-items: center;
+    }
+
+    #container.list {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .list section {
+        display: grid;
+        grid-template-columns: 2fr 1fr 1fr 1fr;
     }
 
 }
