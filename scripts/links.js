@@ -1,6 +1,6 @@
-const baseURL = "http://Jkrant48.github.io/wdd230/";
+const baseURL = "https://Jkrant48.github.io/wdd230/";
 
-const linksURL = "http://Jkrant48.github.io/wdd230/data/links.json";
+const linksURL = "https://Jkrant48.github.io/wdd230/data/links.json";
 
 async function getLinks(linksURL) {
     try {

@@ -1,5 +1,5 @@
-const baseURL = "http://Jkrant48.github.io/wdd230/";
-const dataURL = "http://Jkrant48.github.io/wdd230/chamber/data/members.json";
+const baseURL = "https://Jkrant48.github.io/wdd230/";
+const dataURL = "https://Jkrant48.github.io/wdd230/chamber/data/members.json";
 
 async function getData(dataURL) {
     try {
