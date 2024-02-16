@@ -191,7 +191,7 @@ header {
     border-radius: 20px;
 }
 
-.top h2, .cards h2, .center h2, #images-box h2, .discover h2, .membership h2{
+.top h2, .cards h2, .center h2, #images-box h2, .discover h2, .membership h2, #container h2{
     font-family: "Acme", "helvetica";
     font-size: 1.9rem;
 }
@@ -441,3 +441,39 @@ form input#submitBtn {
     }
 }
 
+.menu button {
+    padding: 1rem;
+    margin: 20px;
+}
+
+#container {
+    margin: 1.5rem;
+}
+
+#container section {
+    border: 1px solid #000;
+    border-radius: 10px;
+    padding: 0.9rem;
+    background-color: #e8d79c;
+    text-align: center;
+    margin-top: 9px;
+    width: fit-content;
+}
+
+#container img {
+    width: 50%;
+}
+
+#container.list {
+    display: flex;
+    flex-direction: column;
+}
+
+.list section img {
+    display: none;
+}
+
+.list section {
+    display: grid;
+    grid-template-columns: 2fr 1fr 1fr 1fr;
+}
