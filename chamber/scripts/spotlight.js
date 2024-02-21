@@ -6,7 +6,7 @@ async function getData(dataURL) {
         const response = await fetch(dataURL);
         if (response.ok) {
             const data = await response.json();
-            console.log(data);
+            //console.log(data);
             spotlight(data);
         } else {
             throw Error(await response.text());
