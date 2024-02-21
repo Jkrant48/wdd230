@@ -495,7 +495,8 @@ form input#submitBtn {
     text-align: center;
     display: flex;
     align-items: center;
-
+    width: 100%;
+    color: #FAFAFA;
 }
 
 #banner img {
