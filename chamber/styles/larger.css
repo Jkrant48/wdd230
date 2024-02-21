@@ -152,4 +152,16 @@
         grid-template-columns: 2fr 1fr 1fr 1fr;
     }
 
+    #banner {
+        display: grid;
+        grid-template-columns: 2fr 1fr;
+    }
+
+    #banner img {
+        grid-column: 1/2;
+    }
+    
+    #banner button {
+        grid-column: 2/3;
+    }
 }

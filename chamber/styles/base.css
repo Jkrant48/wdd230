@@ -493,18 +493,23 @@ form input#submitBtn {
     position: fixed;
     padding: 10px;
     text-align: center;
-    display: flex;
     align-items: center;
-    width: 100%;
+    width: 60%;
+    height: auto;
     color: #FAFAFA;
+    font-size: 20px;
 }
 
 #banner img {
-    max-width: 200px;
-    height: auto;
+    max-width: 90%;
+    padding: 20px;
 }
 
 #banner button {
     border: none;
     padding: 10px;
+}
+
+#banner button:hover {
+    background-color: #D8C99B;
 }
