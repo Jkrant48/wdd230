@@ -8,6 +8,7 @@ async function getData(dataURL) {
             const data = await response.json();
             console.log(data);
             displayData(data);
+            spotlight(data);
         } else {
             throw Error(await response.text());
         }
@@ -51,6 +52,7 @@ function displayData(companiesData) {
         companies.appendChild(section);
     })
 }
+
 
 getData(dataURL);
 

@@ -133,19 +133,29 @@
             <section class="communityinfo">
                 <h2>Community Information</h2>
                 <div>
-                    <h3>Town: Adenta</h3>
+                    <h3> City: <span id="town"></span></h3>
+                    <img id="graphic" src="" alt="">
+                    <p id="temperature"></p>
+                    <p id="description"></p>
                 </div>
             </section>
         </div>
+        <div id="forecast"></div>
         <hr>
         <div id="images-box">
-            <h2>Key members and partners</h2>
-            <div>
-                <img src="images/cap-boutik-logo1.jpg" alt="cap-boutik logo">
-                <img src="images/SerDave-new-logo-no-background1.png" alt="SerDave logo">
-            </div>
-            <a href="#">See More</a>
+            <h2>Spotlight: Key members and partners</h2>
+            <marquee id="spotlight"></marquee>
+            <a href="directory.html">See More</a>
         </div>
+        <section id="banner">
+            <button id="close-btn">❌</button>
+            <img src="images/meet and greet.webp" alt="group of chamber members">
+            <p>
+                Join us for the chamber meet and greet on Wednesday at 1:00pm.
+                A great opportunity to network. Don't miss out!
+            </p>
+            <button>Register</button>
+        </section>
     </main>
     <footer>
         <a class="logo-link" href="index.html">
@@ -171,5 +181,7 @@
         </div>
     </footer>
     <script src="scripts/main.js"></script>
+    <script src="scripts/weather.js"></script>
+    <script src="scripts/spotlight.js"></script>
 </body>
 </html>

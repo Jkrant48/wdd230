@@ -191,7 +191,7 @@ header {
     border-radius: 20px;
 }
 
-.top h2, .cards h2, .center h2, #images-box h2, .discover h2, .membership h2, #container h2{
+.top h2, .cards h2, .center h2, #images-box h2, .discover h2, .membership h2, #container h2, #forecast h2{
     font-family: "Acme", "helvetica";
     font-size: 1.9rem;
 }
@@ -474,3 +474,36 @@ form input#submitBtn {
     display: none;
 }
 
+.temps {
+    padding: 30px;
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+    
+}
+
+#spotlight img {
+    width: 20%;
+    padding: 1rem;
+}
+
+#banner {
+    display: none;
+    background-color: #463F3A;
+    position: fixed;
+    padding: 10px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+
+}
+
+#banner img {
+    max-width: 200px;
+    height: auto;
+}
+
+#banner button {
+    border: none;
+    padding: 10px;
+}
